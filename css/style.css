@@ -102,6 +102,26 @@
     color: #fff;
 }
 
+@media (max-width: 992px) {
+    .carousel-caption {
+        align-items: flex-start !important;
+    }
+    
+    .carousel-inner .carousel-item {
+        height: 400px !important;
+    }
+
+    .carousel-inner .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .carousel-inner .carousel-item div h1{
+        font-size: 2rem;
+        color: #fff;
+    }
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     width: 10%;
