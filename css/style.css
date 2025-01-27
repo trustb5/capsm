@@ -93,6 +93,15 @@
     }
 }
 
+.carousel-inner .carousel-item {
+    height: 650px;
+}
+
+.carousel-inner .carousel-item div h1{
+    font-size: 4rem;
+    color: #fff;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     width: 10%;
