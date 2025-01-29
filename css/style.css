@@ -98,7 +98,7 @@
 }
 
 .carousel-inner .carousel-item div h1{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
 }
 
@@ -171,7 +171,7 @@
 
 .service-item:hover {
     color: var(--light);
-    background: var(--primary) !important;
+    background: #FF9933 !important;
 }
 
 .service-item:hover i {
@@ -317,6 +317,18 @@
     justify-content: flex-end;
     background: linear-gradient(rgba(52, 173, 84, 0), rgba(52, 173, 84, 1));
     z-index: 1;
+}
+
+.about .real img {
+    width: 180px;
+    height: 180px;
+}
+
+@media (max-width: 576px) {
+    .about .real img {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 .bg-footer {
