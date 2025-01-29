@@ -81,6 +81,10 @@
     }
 }
 
+nav .navbar-nav img {
+    border-radius: 50%;
+}
+
 @media (max-width: 576px) {
     .carousel-caption h4 {
         font-size: 18px;
@@ -328,6 +332,9 @@
     .about .real img {
         width: 80px;
         height: 80px;
+    }
+    .about .real h3 {
+        font-size: 1.15rem;
     }
 }
 
